@@ -2,7 +2,7 @@
 This is the accompanying repository of our paper ["Temporal Rule-Based Counterfactual Explanations for Multivariate Time Series"](https://ieeexplore.ieee.org/abstract/document/10069254) presented at IEEE ICMLA 22.
 
 ### Installation: <br />
-This code requires the installation of our [RuleTransform](https://github.com/omarbahri/RuleTransform) package.<br /><br />
+This code requires the installation of our [RuleTransform](https://github.com/omarbahri/RuleTransform) package.<br />
 python3.6.13 is required. I suggest using conda to create the virtual environment:
 ```
 conda create -n rt python=3.6.13
@@ -17,7 +17,7 @@ Then:<br />
 pip install git+https://github.com/omarbahri/RuleTransform
 ```
 ### Instructions: <br />
-The BasicMotions dataset is uploaded to the `data` directory. The other UEA datasets can be downloaded [here](https://timeseriesclassification.com/dataset.php).<br />
+The BasicMotions dataset is uploaded to the `data` directory. The other UEA datasets can be downloaded [here](https://timeseriesclassification.com/dataset.php). <br>
 `terce.sh` runs TeRCE on the BasicMotions dataset as described in the paper. Feel free to experiment with different datasets and parameters.<br /><br />
 ```
 chmod +x terce.sh
