@@ -2,7 +2,7 @@
 This is the accompanying repository of our paper ["Temporal Rule-Based Counterfactual Explanations for Multivariate Time Series"](https://ieeexplore.ieee.org/abstract/document/10069254) presented at IEEE ICMLA 22.
 
 ### Installation: <br />
-This code requires the installation of our [RuleTransform](https://github.com/omarbahri/RuleTransform) package.<br />
+This code requires the installation of our [RuleTransform](https://github.com/omarbahri/RuleTransform) package.<br /><br />
 python3.6.13 is required. I suggest using conda to create the virtual environment:
 ```
 conda create -n rt python=3.6.13
